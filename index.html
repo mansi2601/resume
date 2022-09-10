@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            margin-left: 0px;
+            margin-right:0px;
+        }
+        .head{
+           background-image: url("headerbg.webp");
+        }
+       .content{
+        display: flex;
+        justify-content: space-between;
+       } 
+       .links{
+        display: flex;
+        justify-content: space-between;
+        list-style: none; 
+       }
+       .logo{
+        margin-left: 3%;
+        color: #ffffff;
+       }
+       .links li{
+         margin-top: 4%;
+         margin-left: 80px;
+         margin-right: 20px;
+       }
+        .links li a:hover{
+        color: red;
+       } 
+       a{
+        color:#ffffff;
+        text-decoration: none;
+       }
+       @keyframes moving {
+        from{margin-left: 0%;color: blue;}
+        to{margin-left:100%;color: black;}
+       }
+       .movingText{
+          animation-name: moving;
+          animation-duration: 6s;
+          height: 20px;
+          animation-iteration-count: 20;
+          overflow-y: auto;
+       }
+       .home{
+        text-align: center;
+        background-image: url("mainBg.jpeg");
+       }
+       .myImg{
+        height: 500px;
+        width: 600px;
+        margin-top: 5%;
+        border-radius: 250px;
+       }
+       .heading{
+        color: white;
+        font-size: 30px;
+        padding-bottom: 10px;
+       }
+       .colorBlack{
+        color:black;
+        font-size: 40px;
+        font-family:'Times New Roman', Times, serif;
+       }
+       .center{
+        margin-top: 30px;
+        text-align: center;
+       }
+       .aboutContent{
+        text-align: center;
+       display: flex;
+       margin-left: 10%;
+       margin-right: 10%;
+       }
+       .text{
+        margin-top: 4%;
+        animation: demo;
+        animation-duration: 2s;
+       }
+       .hidden{
+        display: none;
+        /* visibility: hidden; */
+       }
+       .show{
+        display: block;
+       }
+       .homeContent{
+          position: relative;
+       }
+       .inputBig{
+        position: relative;
+       width: 500px;
+       margin-left: auto;
+       margin-right: auto;
+        z-index: 1;
+       }
+       .inputBig input{
+        width: 300px;
+        z-index: 1;
+       }
+       .contact2{
+       width: 500px;
+        display: flex;
+        flex-direction: column;
+        
+       }
+      .contact2 input{
+        margin-top: 20px;
+        width: 350px;
+        border-radius: 0.5em;
+        height: 30px;
+       }
+       textarea{
+        margin-top: 20px;
+        width: 350px;
+        border-radius: 0.5em;
+       }
+       .contact2 button{
+        width: 80px;
+        margin-top: 20px;
+        margin-left: 30%;
+        background-color: green;
+        border-radius: 0.5em;
+        color: white;
+        padding : 10px 10px 10px 10px;
+       }
+       #contact{
+        color: white;
+        background-color: gray;
+        padding-top: 30px;
+        padding-bottom: 50px;
+       }
+       .pop{
+        position: absolute;
+        margin-left: 35%;
+        z-index: 1;
+        margin-top: -900px;
+        border-radius: 50px;
+       }
+@keyframes ldio-tfe642nk3w {
+    0% { transform: rotate(0deg) }
+   50% { transform: rotate(22.5deg) }
+  100% { transform: rotate(45deg) }
+}
+.ldio-tfe642nk3w > div {
+  transform-origin: 100px 100px;
+  animation: ldio-tfe642nk3w 0.2s infinite linear;
+}
+.ldio-tfe642nk3w > div div {
+    position: absolute;
+    width: 22px;
+    height: 152px;
+    background: #e15b64;
+    left: 100px;
+    top: 100px;
+    transform: translate(-50%,-50%);
+}
+.ldio-tfe642nk3w > div div:nth-child(1) {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.ldio-tfe642nk3w > div div:nth-child(6) {
+    width: 80px;
+    height: 80px;
+    background: #ffffff;
+    border-radius: 50%;
+}.ldio-tfe642nk3w > div div:nth-child(3) {
+  transform: translate(-50%,-50%) rotate(45deg)
+}.ldio-tfe642nk3w > div div:nth-child(4) {
+  transform: translate(-50%,-50%) rotate(90deg)
+}.ldio-tfe642nk3w > div div:nth-child(5) {
+  transform: translate(-50%,-50%) rotate(135deg)
+}
+.loadingio-spinner-gear-riw8lrsxxig {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  overflow: hidden;
+  background: #ffffff;
+}
+.ldio-tfe642nk3w {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0; /* see note above */
+}
+.ldio-tfe642nk3w div { box-sizing: content-box; }
+.firstly{
+    margin-left: 45%;
+    margin-top: 20%;
+}
+@keyframes demo{
+    from {transform: translateY(30px);}
+  to {transform: translateY(0px);}
+}
+.transition{
+   animation: demo;
+   animation-duration: 1s;
+   margin-top:20px;
+}
+
+/* generated by https://loading.io/ */
+    </style>
+    <title>Resume Website </title>
+</head>
+
+<body >
+    <div id = "firstly" class = "show">
+        <div class="loadingio-spinner-gear-riw8lrsxxig firstly"><div class="ldio-tfe642nk3w">
+            <div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+            </div></div>
+            
+    </div>
+    <div id = "body" class="hidden">
+     <header class="head">
+        <nav>
+            <div class="content">
+               <div class="logo">
+                   <h2>Ankit Kumar</h2>
+               </div>
+               <div class = "links">
+                <li><a href="#home">Home </a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+               </div>
+            </div>
+        </nav>
+    </header>
+       <section id="home">
+        <p class="movingText">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae aliquid repellendus ullam id voluptas quis, dolore hic modi debitis vel, officia voluptatibus, consectetur voluptates magni similique minima nam dolorum iure.
+           </p>
+         <div class="home">   
+             <div class="homeContent">
+                <div class="myimg " >
+                    <img class="myImg" src="headImage.jpeg" alt="">
+                    <div class ="inputBig hidden" id = "pop">
+                        <input type="text"  placeholder="Enter your Name">
+                    </div>
+                 </div>
+                <div class=" heading transition" id = "btnAbout">
+                   Contact Me
+                </div>
+               
+             </div>
+         </div>
+       </section>
+     <section id="about" class="center">
+        <div class="heading colorBlack" id ="about1">About Me</div>
+        <div class="aboutContent"> 
+            <div class="img">
+                <img src="mypic.jpeg" alt="">
+            </div>
+            <div class="text" >
+                <p id ="textAbout">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia nobis sequi, consequuntur reprehenderit delectus magnam accusamus ipsa iure ad. Accusantium laboriosam ipsa aliquam harum, molestiae labore maiores, velit qui dolores eaque aut dolor, impedit ducimus vero? Perspiciatis ex doloribus adipisci iusto ratione fuga magni, possimus aliquam? Officiis nesciunt recusandae aspernatur.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda eveniet exercitationem eum id adipisci! Qui mollitia molestias quam fugiat voluptatibus.
+                </p>
+            </div>
+        </div>
+     </section>
+     <section id="contact" class="center pop hidden">
+        <div class="heading colorBlack" id ="contact1"> Contact Me </div>
+        <div class="aboutContent"> 
+            <div class="contact">
+                <div  class="contact2" >
+                    <input type="text" id = "name" placeholder="Enter your Name" required>
+                    <input type="text" id = "contactNumber" placeholder="Enter your Contact Number"  required>
+                    <textarea type="text" rows="6" required></textarea>
+                    <button id = "Submit">Submit</button>
+                </div>
+            </div>
+        </div>
+     </section>
+    </div>
+     <script>
+      let Submit  = document.getElementById("Submit")
+      let contactSection = document.getElementById("contact")
+      let btnAbout = document.getElementById("btnAbout")
+       btnAbout.onclick= function (){       
+           contactSection.classList.remove("hidden")
+           contactSection.classList.add("show")
+       }
+       setTimeout(function(){
+        let contactSection = document.getElementById("body")
+         contactSection.classList.remove("hidden")
+           contactSection.classList.add("show")
+           let firstly = document.getElementById("firstly")
+           firstly.classList.remove("show")
+           firstly.classList.add("hidden")
+
+       },1000)
+     let submit = document.getElementById("Submit")
+       submit.onclick = function (){
+          contactSection.classList.remove("show")
+           contactSection.classList.add("hidden")
+       }
+     </script>
+</body>
+</html>
